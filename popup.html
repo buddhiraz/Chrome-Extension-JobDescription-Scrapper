@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      width: 300px;
+    }
+    button {
+      background-color: #0073b1;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+    button:hover {
+      background-color: #005f8d;
+    }
+    button:active {
+      transform: scale(0.98);
+    }
+    button.success {
+      background-color: #28a745;
+    }
+  </style>
+  
+</head>
+<body>
+  <button id="scrape">Scrape Job Description</button>
+  <div id="jobs"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
